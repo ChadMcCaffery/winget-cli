@@ -141,7 +141,7 @@ The `defaultInstallRoot` affects the install location when a package requires on
 
 ```json
     "installBehavior": {
-        "defaultInstallRoot": "C:\installRoot"
+        "defaultInstallRoot": "C:\\installRoot"
     },
 ```
 
@@ -234,7 +234,7 @@ You can enable the feature as shown below.
 ### directMSI
 
 This feature enables the Windows Package Manager to directly install MSI packages with the MSI APIs rather than through msiexec. 
-Note that when silent installation is used this is already in affect, as MSI packages that require elevation will fail in that scenario without it. 
+Note that when silent installation is used this is already in effect, as MSI packages that require elevation will fail in that scenario without it. 
 You can enable the feature as shown below.
 
 ```json
